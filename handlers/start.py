@@ -50,7 +50,4 @@ async def process_contact(message: Message, state: FSMContext):
     await message.bot.send_message(config('admin_id'), result)
 
 
-# @start_router.message(Form.send_to_admin)
-# async def send_order_to_admin(message: Message, state: FSMContext, bot:types.BotCommand):
-
 
